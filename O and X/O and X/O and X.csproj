@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{0B3C4BC0-06BC-45E9-8091-98B759B14826}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>O_and_X</RootNamespace>
-    <AssemblyName>O and X</AssemblyName>
+    <RootNamespace>OandX</RootNamespace>
+    <AssemblyName>OandX</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
