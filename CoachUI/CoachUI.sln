@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoachUI", "CoachUI\CoachUI.csproj", "{8911700E-15AF-4011-842E-7C2F2B76911F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8911700E-15AF-4011-842E-7C2F2B76911F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8911700E-15AF-4011-842E-7C2F2B76911F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8911700E-15AF-4011-842E-7C2F2B76911F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8911700E-15AF-4011-842E-7C2F2B76911F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {99E1C8B5-74D6-4650-98EA-71A7010A60A8}
+	EndGlobalSection
+EndGlobal
