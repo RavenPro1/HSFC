@@ -33,22 +33,25 @@ namespace OandX
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (Player1 == true)
-            {
-                Player1 = false; Player2 = true;
-                button1.BackgroundImage = Resources.Cross;
-                button1.Update();
-            }
-            else if (Player2 == true)
-            {
-                Player1 = true; Player2 = false;
-                button1.BackgroundImage = Resources.Nought;
-                button1.Update();
-            }
+            if (but1) { return; }
+                if (Player1 == true)
+                {
+                    Player1 = false; Player2 = true;
+                    button1.BackgroundImage = Resources.Cross;
+                    button1.Update();
+                }
+                else if (Player2 == true)
+                {
+                    Player1 = true; Player2 = false;
+                    button1.BackgroundImage = Resources.Nought;
+                    button1.Update();
+                }
+            but1 = true;
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
+            if (but2) { return; }
             if (Player1 == true)
             {
                 Player1 = false; Player2 = true;
@@ -61,10 +64,12 @@ namespace OandX
                 button2.BackgroundImage = Resources.Nought;
                 button2.Update();
             }
+            but2 = true;
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
+            if (but3) { return; }
             if (Player1 == true)
             {
                 Player1 = false; Player2 = true;
@@ -77,10 +82,12 @@ namespace OandX
                 button3.BackgroundImage = Resources.Nought;
                 button3.Update();
             }
+            but3 = true;
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
+            if (but4) { return; }
             if (Player1 == true)
             {
                 Player1 = false; Player2 = true;
@@ -93,10 +100,12 @@ namespace OandX
                 button4.BackgroundImage = Resources.Nought;
                 button4.Update();
             }
+            but4 = true;
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
+            if (but5) { return; }
             if (Player1 == true)
             {
                 Player1 = false; Player2 = true;
@@ -109,10 +118,12 @@ namespace OandX
                 button5.BackgroundImage = Resources.Nought;
                 button5.Update();
             }
+            but5 = true;
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
+            if (but6) { return; }
             if (Player1 == true)
             {
                 Player1 = false; Player2 = true;
@@ -125,10 +136,12 @@ namespace OandX
                 button6.BackgroundImage = Resources.Nought;
                 button6.Update();
             }
+            but6 = true;
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
+            if (but7) { return; }
             if (Player1 == true)
             {
                 Player1 = false; Player2 = true;
@@ -141,10 +154,12 @@ namespace OandX
                 button7.BackgroundImage = Resources.Nought;
                 button7.Update();
             }
+            but7 = true;
         }
 
         private void button8_Click(object sender, EventArgs e)
         {
+            if (but8) { return; }
             if (Player1 == true)
             {
                 Player1 = false; Player2 = true;
@@ -157,10 +172,12 @@ namespace OandX
                 button8.BackgroundImage = Resources.Nought;
                 button8.Update();
             }
+            but8 = true;
         }
 
         private void button9_Click(object sender, EventArgs e)
         {
+            if (but9) { return; }
             if (Player1 == true)
             {
                 Player1 = false; Player2 = true;
@@ -173,6 +190,7 @@ namespace OandX
                 button9.BackgroundImage = Resources.Nought;
                 button9.Update();
             }
+            but9 = true;
         }
     }
 }
